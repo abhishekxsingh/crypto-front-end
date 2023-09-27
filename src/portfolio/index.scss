@@ -1,0 +1,104 @@
+.portfolio {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-content {
+  z-index: 1;
+  border: 2px solid #262689;
+  background: #0c182e;
+  border-radius: 15px;
+  margin: auto;
+  width: 40%;
+  height: 80vh;
+  padding: 45px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.suggest{
+  width: 300px;
+  height: fit-content;
+  position: absolute;
+  box-shadow: 3px 3px 5px #999;
+  background-color: black
+}
+
+h1{
+  margin-top: -1px;
+  font-size: 2.5rem;
+}
+.search{
+  width:60%;
+  margin-left: 90px;
+}
+.btn{
+  width: 57%;
+  height: 36px;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  border: 2px solid green;
+  background: rgb(108, 159, 31);
+  border-radius: 5px;
+}
+
+.btn:hover{
+  background-color: green;
+  border: 2px solid greenyellow;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+.search-box{
+  width: 98%;
+  height: 40px;
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+.info{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+  font-size: 1.5rem;
+  padding:5px;
+}
+
+.text{
+   margin-left: 150px;
+}
+
+.info input{
+  width: 60%;
+  margin: 25px;
+  height: 40px;
+  font-size: 1.5rem;
+  margin-left: 100px;
+}
+.buy{
+  margin-top: 5%;
+}
+.save-btn{
+  width: 107%;
+  height: 36px;
+  margin-right: 50px;
+  font-size: 1.3rem;
+  margin-left: 150px;
+  border: 2px solid rgb(217, 235, 14);
+  background: rgb(185, 21, 21);
+  border-radius: 8px;
+  color:white;
+}
+.save-btn:hover{
+  background-color: green;
+  border: 2px solid greenyellow;
+  cursor: pointer;
+  color: white;
+}
+.total{
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.5rem;
+      padding:5px;
+}
